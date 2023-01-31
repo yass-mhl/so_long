@@ -6,7 +6,7 @@
 /*   By: ymehlil <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/15 16:50:26 by ymehlil           #+#    #+#             */
-/*   Updated: 2023/01/25 15:23:57 by ymehlil          ###   ########.fr       */
+/*   Updated: 2023/01/27 17:57:08 by ymehlil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ int		set_img(t_map *data);
 int		handle_input(int keysym, t_map *data);
 int		first_check(char **env, int ac, char *s);
 
-void	map_in_struct(t_map *data, char *map);
+int		map_in_struct(t_map *data, char *map);
 void	ft_free_all_tab(char **tab, int index);
 void	init(t_map *data);
 void	display(t_map *data);
